@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form name="js">
+        <input type="text" name="txtb" value=""><br>
+        <input type="button" value="歓迎" onclick="tbox1()"><br>
+        <input type="button" value="消去" onclick="clr()"><br>
+    </form>
+
+<script>
+    function tbox1() {
+        var str1 = document.js.txtb.value
+        alert(str1)
+    }
+    function clr() {
+        document.js.txtb.value = ""
+    }
+</script>
+</body>
+</html>
